@@ -244,7 +244,7 @@
     }
 
     .p-careers-progression-carousel__previous {
-      @extend .p-icon--chevron-left;
+      @include vf-icon-chevron-left-themed;
 
       border: 0;
       height: 44px;
@@ -252,7 +252,7 @@
     }
 
     .p-careers-progression-carousel__next {
-      @extend .p-icon--chevron-right;
+      @include vf-icon-chevron-right-themed;
 
       border: 0;
       height: 44px;
